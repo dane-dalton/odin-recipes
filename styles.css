@@ -1,0 +1,68 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: hsl(50, 28%, 66%);
+    padding: 10px 10px 15px 10px;
+    margin-bottom: 2rem;
+    text-align: left;
+    outline: solid;
+    font-size: 24px;
+    display: flex;
+}
+
+.header a {
+    text-decoration: none;
+    background-color: hsl(49, 17%, 52%);
+    color: black;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    outline: solid;
+    margin: auto;
+    box-shadow: 10px 10px 20px black;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: hsl(48, 12%, 68%);
+}
+
+.recipe-head {
+    font-size: 32px;
+    margin: 0 0 2rem 2rem;
+    text-decoration: underline;
+}
+
+.recipe-list li {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.recipe-list li a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    outline: solid;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px black;
+}
+
+.recipe-list li a:hover {
+    background-color: hsl(50, 20%, 68%);
+}
+
+.img {
+    width: 500px;
+    margin: 0 0 0 2rem;
+    outline: solid;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 20px black;
+}
