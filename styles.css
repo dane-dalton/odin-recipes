@@ -13,7 +13,7 @@ body {
     margin-bottom: 2rem;
     text-align: left;
     outline: solid;
-    font-size: 24px;
+    font-size: 28px;
     display: flex;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 .recipe-head {
-    font-size: 32px;
+    font-size: 40px;
     margin: 0 0 2rem 2rem;
     text-decoration: underline;
 }
@@ -65,4 +65,42 @@ body {
     outline: solid;
     border-radius: 1rem;
     box-shadow: 10px 10px 20px black;
+}
+
+.img.gif {
+    width: 750px;
+    align-content: center;
+    margin-bottom: 2rem;
+}
+
+.desc,
+.ingred,
+.steps {
+    margin: 1.5rem;
+    outline: solid;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 20px black;
+}
+
+.desc h2,
+.ingred h2,
+.steps h2 {
+    font-size: 36px;
+}
+
+.desc p {
+    font-size: 20px;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.ingred ul li {
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.steps ol li {
+    font-size: 20px;
+    margin-bottom: 1.5rem;
 }
