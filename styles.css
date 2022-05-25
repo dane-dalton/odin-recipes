@@ -73,6 +73,10 @@ body {
     margin-bottom: 2rem;
 }
 
+.container {
+    display: flex;
+}
+
 .desc,
 .ingred,
 .steps {
@@ -81,6 +85,7 @@ body {
     padding: 0.5rem;
     border-radius: 1rem;
     box-shadow: 10px 10px 20px black;
+    flex: 1;
 }
 
 .desc h2,
