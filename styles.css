@@ -9,12 +9,11 @@ body {
 
 .header {
     background-color: hsl(50, 28%, 66%);
-    padding: 10px 10px 15px 10px;
+    padding: 5px 10px 20px 10px;
     margin-bottom: 2rem;
-    text-align: left;
+    text-align: center;
     outline: solid;
     font-size: 28px;
-    display: flex;
 }
 
 .header a {
@@ -24,19 +23,33 @@ body {
     padding: 0.5rem;
     border-radius: 1rem;
     outline: solid;
-    margin: auto;
+    margin: 0.5rem;
     box-shadow: 10px 10px 20px black;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .header a:hover {
     background-color: hsl(48, 12%, 68%);
 }
 
+.recipe-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .recipe-head {
     font-size: 40px;
-    margin: 0 0 2rem 2rem;
+    margin: 1rem 3rem;
     text-decoration: underline;
+}
+
+.recipe-list ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .recipe-list li {
@@ -71,6 +84,7 @@ body {
     width: 750px;
     align-content: center;
     margin-bottom: 2rem;
+    margin-left: 10rem;
 }
 
 .container {
@@ -80,7 +94,7 @@ body {
 .desc,
 .ingred,
 .steps {
-    margin: 1.5rem;
+    margin: 2rem;
     outline: solid;
     padding: 0.5rem;
     border-radius: 1rem;
@@ -96,8 +110,16 @@ body {
 
 .desc p {
     font-size: 20px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     margin-left: 1rem;
+}
+
+.container .desc {
+    margin: 0 2rem;
+}
+
+.main-container {
+    align-items: center;
 }
 
 .ingred ul li {
